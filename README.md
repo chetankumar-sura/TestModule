@@ -1,0 +1,5 @@
+Developers use unit testing, a low-level testing technique, to ensure that discrete code segments, or "units," function as intended. Developers build unit tests throughout the coding phase by isolating specific code to ensure it is right. One way to do this would be to isolate functions and create tests for them. Making sure they function as planned is the goal of this.
+Defect discovery and rectification later in the project may result in delays and higher expenditures, thus it's critical to identify issues and faults early on.
+
+In the main file, I meticulously crafted a set of functions tailored to address specific tasks within the project. To ensure their reliability and efficiency, each function underwent rigorous testing in the testrunner file. By systematically passing values to these functions and analyzing their outputs, we validated their functionality and performance. 
+This meticulous approach not only bolstered the robustness of our codebase but also instilled confidence in its execution. #SoftwareDevelopment #Testing #QualityAssurance"
