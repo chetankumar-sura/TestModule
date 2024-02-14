@@ -1,6 +1,5 @@
 import re 
 
-# Question 1: -----------------------------------
 regex = r'^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w+$' 
       
 def check_email(email):  
@@ -33,7 +32,6 @@ def check_psw(psw):
     print("Invalid password")    
     return False    
 
-# New functions: ------------------------------------
 def check_psw_equal(psw1, psw2):
   return psw1 == psw2
 
