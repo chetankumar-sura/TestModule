@@ -4,7 +4,6 @@ from main import check_email
 from main import check_psw_equal
 from main import check_credentials
 
-#Tests to question 1: -------------------------------
 def test_email1():
   email = "myname326@gmail.com"
   assert check_email(email) is True
@@ -49,7 +48,6 @@ def test_check_psw8():
   psw = "Qwert5@"
   assert check_psw(psw) is True    
 
-# TODO write the unit tests for the new functions, remove the comment notation and replace assert False with your code: ---------------------------- 
 # 1. Test that two equal passwords return true
 def test_psw_equal1():
   psw1 = "Qwerty$£@"
